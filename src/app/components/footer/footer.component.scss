@@ -1,0 +1,41 @@
+footer {
+    padding: 1.5em 0;
+    border-top: 2px solid black;
+}
+
+
+.logoFooter {
+    width: 190px;
+    margin-top: 2.3em;
+}
+
+.mapFooter {
+    width: 100%;
+}
+
+.footerSectionTitle {
+    font-weight: bold;
+    margin-bottom: .4em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: .9em;
+}
+
+.footerSectionItem {
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+}
+
+.footerSectionItem, .footerSectionTitle {
+    font-size: 17px;
+}
+
+.footerMapColumn {
+    margin-bottom: 0.2em!important;
+}
