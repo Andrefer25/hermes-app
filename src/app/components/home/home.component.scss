@@ -237,3 +237,13 @@
     margin-top: .3em;
     margin-right: 1.5em;
 }
+
+.homeCard {
+    width: 100% !important;
+    height: 250px;
+    overflow: hidden;
+}
+
+.homeCards {
+    overflow-x: scroll;
+}
