@@ -1,0 +1,274 @@
+.firstSection {
+    background-color: black;
+    padding-top: 2em;
+    height: calc(100vh - 76px);
+    position: relative;
+}
+
+.homeTitleSection {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.homeTitleSection h2 {
+    margin-bottom: 1.5em;
+    font-size: 2.3em;
+    font-weight: 400;
+    color: white;
+}
+
+.bottomFSection {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrollDown {
+    position: relative;
+}
+
+.scrollDownButton a {
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 50%;
+    z-index: 2;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #fff;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+}
+
+.scrollDownButton a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb07 2s infinite;
+    animation: sdb07 2s infinite;
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+.scrollDownButton a span:nth-of-type(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.scrollDownButton a span:nth-of-type(2) {
+    top: 16px;
+    -webkit-animation-delay: .15s;
+    animation-delay: .15s;
+}
+
+.scrollDownButton a span:nth-of-type(3) {
+    top: 32px;
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s;
+}
+
+@-webkit-keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+@keyframes sdb07 {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.scrollDownButton a:hover {
+    opacity: .5;
+}
+
+.oportunidadesTitle {
+    display: flex;
+}
+
+.oportunidadesCard {
+    background-color: white;
+    padding: 0 0 .4em;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.oportunidadesCard p {
+    margin: .1em auto;
+    font-size: 14.5px;
+}
+
+.oportunidadesTitle a {
+    margin-left: auto;
+    text-decoration: none;
+    color: gray;
+}
+
+.oportunidadesSection {
+    padding-right: 100px;
+}
+
+.oportunidadesCard img {
+    width: 100%;
+}
+
+.homeSection {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.inmobiliaria {
+    height: calc(100vh - 76px);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(121,121,121,1) 100%);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.inmobiliariaInfo {
+    margin-top: -1.2em;
+}
+
+.inmobiliariaInfo h3 {
+    font-size: 2.3em;
+    font-weight: 400;
+    margin-bottom: .5em;    
+}
+
+.inmobiliariaInfo h5, .homeSectionInfo h5  {
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.luxury {
+    height: calc(100vh - 76px);
+    background: rgba(121,121,121,1);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.homeSectionInfo {
+    margin-top: -3em;
+}
+
+.homeSectionInfo h3 {
+    font-size: 2.3em;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.extranjera {
+    height: calc(100vh - 76px);
+    background: rgb(121,121,121);
+    background: linear-gradient(180deg, rgba(121,121,121,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(255,255,255,1) 100%);
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.homeSectionInfo p {
+    color: white;
+    margin-top: -.7em;
+    margin-bottom: 1em;
+}
+
+.homeSectionInfo p a {
+    color: white;
+}
+
+.financiacion {
+    height: calc(100vh - 76px);
+    background: white;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.financiacionSection h3 {
+    font-size: 2.3em;
+}
+
+.financiacionItem {
+    display: flex;
+    margin-top: 1em;
+}
+
+.financiacionSection {
+    padding-right: 10em;
+}
+
+.financiacionIcon {
+    width: 40px;
+    height: 40px;
+    margin-top: .3em;
+    margin-right: 1.5em;
+}
+
+.homeCard {
+    width: 100% !important;
+    height: 250px;
+    overflow: hidden;
+}
+
+.homeCards {
+    overflow-x: scroll;
+}
+
+.cardSlide {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.cardItem {
+    margin-left: 1.3em;
+}
+
+.viewMore {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 2em;
+}
+
+.black {
+    color: black;
+}
+
+.viewIcon {
+    font-weight: 800;
+}

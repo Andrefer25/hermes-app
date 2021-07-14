@@ -1,0 +1,27 @@
+<div class="card property-card">
+        <img class="image" src="https://dummyimage.com/800x420/000/fff" alt="">
+        <span class="badge bg-secondary float-end property-badge">{{tipoPropiedad}}</span>
+    <div class="card-body">
+        <div class="d-flex align-items-center property-location">
+            <i class="fas fa-map-marker-alt"></i><p class="card-text property-info">Miami, Estados Unidos</p>
+        </div>
+        <ng-container *ngIf="tipoPropiedad == 'Campos'">
+            <div class="d-flex">
+                <p class="hectareasCampo">ha</p><p>1.000</p>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="tipoPropiedad != 'Campos'">
+            <div class="d-flex align-items-center property-items">
+                <i class="fas fa-toilet"></i><p class="card-text property-info">4 baños</p> 
+                <i class="fas fa-bed"></i><p class="card-text property-info">4 dormitorios</p>
+                <i class="fas fa-car"></i><p class="card-text property-info">Cochera</p> 
+            </div>
+        </ng-container>
+        <div class="property-bottom d-flex align-items-center">
+            <p class="d-inline me-auto property-price">US$ 1.400.000</p>
+            <button href="#" class="btn btn-secondary float-end ver-button">Ver</button>
+        </div>
+    </div>
+</div>
+
+
