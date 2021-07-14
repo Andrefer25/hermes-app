@@ -17,7 +17,7 @@ p {
 }
 
 .property-card {
-    width: 23rem;
+    width: 22rem;
     margin: 0 auto;
     border-radius: 7px;
     overflow: hidden;
@@ -28,7 +28,7 @@ p {
 }
 
 .property-items p{
-    margin-right: 2em;
+    margin-right: 1.5em;
     &:last-child{
         margin-right: 0;
     }
@@ -55,8 +55,4 @@ p {
 .hectareasCampo {
     font-weight: 700;
     margin-right: 0.25em;
-}
-
-.image {
-    position: relative;
 }
