@@ -247,3 +247,28 @@
 .homeCards {
     overflow-x: scroll;
 }
+
+.cardSlide {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.cardItem {
+    margin-left: 1.3em;
+}
+
+.viewMore {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 2em;
+}
+
+.black {
+    color: black;
+}
+
+.viewIcon {
+    font-weight: 800;
+}
