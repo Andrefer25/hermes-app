@@ -12,11 +12,19 @@ p {
     font-size: 20px;
     font-weight: 300;
     width: 5.5em;
+    position: absolute;
+    right: 0;
 }
 
+.property-card {
+    width: 23rem;
+    margin: 0 auto;
+    border-radius: 7px;
+    overflow: hidden;
+}
 
 .property-info {
-    margin-left: 0.5em;
+    margin-left: 0.25em;
 }
 
 .property-items p{
@@ -46,5 +54,9 @@ p {
 
 .hectareasCampo {
     font-weight: 700;
-    margin-right: 0.5em;
+    margin-right: 0.25em;
+}
+
+.image {
+    position: relative;
 }
