@@ -8,6 +8,8 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { PropertyListComponent } from './components/property-list/property-list.component';
+import { OportunidadesComponent } from './components/oportunidades/oportunidades.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { PropertyListComponent } from './components/property-list/property-list.
     NavComponent,
     HomeComponent,
     CardComponent,
-    PropertyListComponent
+    PropertyListComponent,
+    OportunidadesComponent
   ],
   imports: [
     BrowserModule,
