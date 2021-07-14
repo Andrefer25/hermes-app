@@ -1,17 +1,16 @@
-<div class="card" style="width: 24rem;">
-    <div class="image-background" style="height: 200px;">
-        <span class="badge bg-secondary float-end property-badge">Haciendas</span>
-    </div>
+<div class="card property-card">
+        <img class="image" src="https://dummyimage.com/800x420/000/fff" alt="">
+        <span class="badge bg-secondary float-end property-badge">{{tipoPropiedad}}</span>
     <div class="card-body">
         <div class="d-flex align-items-center property-location">
             <i class="fas fa-map-marker-alt"></i><p class="card-text property-info">Miami, Estados Unidos</p>
         </div>
-        <ng-container *ngIf="esCampo">
+        <ng-container *ngIf="tipoPropiedad == 'Campos'">
             <div class="d-flex">
                 <p class="hectareasCampo">ha</p><p>1.000</p>
             </div>
         </ng-container>
-        <ng-container *ngIf="!esCampo">
+        <ng-container *ngIf="tipoPropiedad != 'Campos'">
             <div class="d-flex align-items-center property-items">
                 <i class="fas fa-toilet"></i><p class="card-text property-info">4 baños</p> 
                 <i class="fas fa-bed"></i><p class="card-text property-info">4 dormitorios</p>
