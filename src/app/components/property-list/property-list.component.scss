@@ -1,24 +1,149 @@
+.title-extranjeras,
 .title {
     font-size: 56px;
     font-weight: 400;
-    padding: 0.8em 0 0.8em 1.9em;
+    padding: 0.8em 0 0.8em 5vw;
+}
+
+.title-extranjeras {
+    padding: 0.8em 0 0.2em 5vw
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 0 2.2em 5vw;
 }
 
 .filter-bar {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding-left: 6.4em;
+    padding-left: 5vw;
 }
 
 .list-properties {
-    padding-left: 1.9em;
-    padding-right: 1.9em;
+    padding-left: 5vw;
+    padding-right: 5vw;
 
 }
 
 .property-badge {
     margin: 0.5em 0.3em 0.5em 0;
+    padding: 0.2em 0.5em;
     font-size: 20px;
     font-weight: 300;
     width: 5.5em;
+}
+
+p {
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.provincia-title {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10em;
+}
+
+.ubicacion-dropdown {
+    width: 18em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.ubicacion-button {
+    border: 1px solid #ced4da;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.pronvincia-row {
+    margin-top: 0.5em;
+}
+
+.provincia {
+    margin-bottom: 0.2em;
+}
+
+.filter-title {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 17px;
+}
+
+.price-dash {
+    font-size: 30px;
+    margin: 0 0.5em;
+    font-weight: 200;
+}
+
+.modal-price-dash {
+    font-size: 30px;
+    margin: 0 0;
+    font-weight: 200;
+}
+
+.property-item {
+    margin-top: 1.3em;
+}
+
+.filtros-button {
+    font-size: 20px;
+}
+
+.modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 25vw;
+    height: 100%;
+    right: 0px;
+}
+.modal-content {
+    height: 100%;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 32px;
+}
+
+.ubicacion-filtrar {
+    margin-top: 1em;
+    width: 100%;
+}
+
+.filtrado-badge {
+    margin-top: 0.5em;
+    border: 1px solid #ced4da; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filter-modal-title {
+    font-size: 22px;
+}
+
+.filter-row {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.modal-check {
+    margin-right: 1em;
+    font-size: 18px;
+}
+
+.page-link {
+    border: none;
+    color: black;
+}
+
+.page-item.active .page-link {
+    background-color: black;
+    border-radius: 10px;
 }
