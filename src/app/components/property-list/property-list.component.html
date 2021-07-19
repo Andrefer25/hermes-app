@@ -1,9 +1,9 @@
 
-<ng-container *ngIf="propiedadesExtranjeras">
+<ng-container *ngIf="extranjeras">
     <h1 class="title-extranjeras">Propiedades extranjeras</h1>
     <h3 class="sub-title">Conocé los requisitos para adquirir una propiedad en el exterior. <a href="#" class="link-secondary">Más información</a></h3>
 </ng-container>
-<ng-container *ngIf="!propiedadesExtranjeras">
+<ng-container *ngIf="!extranjeras">
     <h1 class="title">Propiedades</h1>
 </ng-container>
 <div class="filter-bar d-flex align-items-center">
@@ -16,8 +16,7 @@
 
     <p class="filter-title">Ubicación</p>
     <div class="dropdown">
-        <button class="btn ubicacion-button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-            style="width: 15vw;">
+        <button class="btn ubicacion-button" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">
             <i class="fas fa-map-marker-alt float-end"></i>
         </button>
         <div class="dropdown-menu ubicacion-dropdown">

@@ -57,6 +57,7 @@ p {
     border: 1px solid #ced4da;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    width: 15vw;
 }
 
 .pronvincia-row {
@@ -147,3 +148,9 @@ p {
     background-color: black;
     border-radius: 10px;
 }
+
+@media (max-width: 1400px) {
+    .ubicacion-button {
+        width: 7vw;
+    }
+ }

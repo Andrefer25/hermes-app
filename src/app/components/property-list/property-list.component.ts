@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
 
 @Component({
   selector: 'app-property-list',
@@ -6,13 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./property-list.component.scss']
 })
 export class PropertyListComponent implements OnInit {
-  @Input() propiedadesExtranjeras: boolean = true;
-  
+  extranjeras: boolean = false;
 
-  constructor() { }
+  constructor(private activatedRoute:ActivatedRoute) { }
   
 
   ngOnInit(): void {
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.extranjeras = params.get('extranjeras')? true : false ;
+      console.log(this.extranjeras);
+    })
   }
 
 }
