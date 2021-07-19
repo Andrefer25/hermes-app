@@ -1,0 +1,93 @@
+.propiedad {
+    overflow: hidden;
+}
+
+.descProp {
+    text-align: center;
+    margin-top: 6em;
+}
+
+.descProp h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.descProp p {
+    color: gray;
+    font-size: 20px;
+}
+
+.hectareas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.hectareas img {
+    width: 20px;
+    margin-top: -.7em;
+    margin-right: .5em;
+}
+
+.hectareas p {
+    color: black;
+    font-size: 20px;
+}
+
+
+.propButton {
+    margin-top: 3em;
+    width: 100%;
+    padding-left: 3em;
+    padding-right: 4em;
+}
+
+.propButton button {
+    width: 100%;
+    background-color: black;
+    color: rgb(228, 228, 228);
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.secRow {
+    margin-top: 1em;
+}
+
+.borderTop {
+    border-top: 1px solid black;
+}
+
+.moreDesc {
+    padding: 2em 4em;
+}
+
+.modal-dialog {
+    max-width: 400px!important;
+    margin: 3rem auto;
+}
+
+.modal-header {
+    border-bottom: none;
+    margin-bottom: -1.3em;
+}
+
+.modal-header h4 {
+    margin-left: .7em;
+}
+
+.modalForm {
+    padding: 0 1em;
+}
+
+.modalForm button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
