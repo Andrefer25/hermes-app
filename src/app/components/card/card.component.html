@@ -1,20 +1,20 @@
 <div class="card property-card">
-        <img class="image" src="https://dummyimage.com/800x420/000/fff" alt="">
-        <span class="badge bg-secondary float-end property-badge">{{tipoPropiedad}}</span>
+        <img class="image" src="{{ imagen }}" alt="">
+        <span class="badge bg-dark float-end property-badge">{{tipoPropiedad}}</span>
     <div class="card-body">
         <div class="d-flex align-items-center property-location">
-            <i class="fas fa-map-marker-alt"></i><p class="card-text property-info">Miami, Estados Unidos</p>
+            <i class="fas fa-map-marker-alt" style="color: rgb(154,5,12);"></i><p class="card-text property-info">Miami, Estados Unidos</p>
         </div>
         <ng-container *ngIf="tipoPropiedad == 'Campos'">
             <div class="d-flex">
-                <p class="hectareasCampo">ha</p><p>1.000</p>
+                <p class="hectareasCampo" style="color: rgb(154,5,12);">ha</p><p>1.000</p>
             </div>
         </ng-container>
         <ng-container *ngIf="tipoPropiedad != 'Campos'">
             <div class="d-flex align-items-center property-items">
-                <i class="fas fa-toilet"></i><p class="card-text property-info">4 baños</p> 
-                <i class="fas fa-bed"></i><p class="card-text property-info">4 dormitorios</p>
-                <i class="fas fa-car"></i><p class="card-text property-info">Cochera</p> 
+                <i class="fas fa-toilet" style="color: rgb(154,5,12);"></i><p class="card-text property-info">4 baños</p> 
+                <i class="fas fa-bed" style="color: rgb(154,5,12);"></i><p class="card-text property-info">4 dormitorios</p>
+                <i class="fas fa-car" style="color: rgb(154,5,12);"></i><p class="card-text property-info">Cochera</p> 
             </div>
         </ng-container>
         <div class="property-bottom d-flex align-items-center">
