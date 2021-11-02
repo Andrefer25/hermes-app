@@ -1,7 +1,6 @@
 <div class="firstSection">
     <div class="homeTitleSection">
         <h2>Hermes Capital</h2>
-        <img src="https://dummyimage.com/450x225" alt="logo" />
     </div>
     <div class="bottomFSection">
         <div class="row">
@@ -15,7 +14,7 @@
             <div class="col-md-10 oportunidadesSection">
                 <div class="oportunidadesTitle">
                     <p>OPORTUNIDADES</p>
-                    <a href="#">Ver mas</a>
+                    <a href="#">Ver más <span class="viewIcon">></span></a>
                 </div>
                 <div class="row">
                     <div class="col-sm-2">
@@ -62,8 +61,8 @@
 <div class="inmobiliaria" id="inmobiliaria">
     <div class="homeSection">
         <div class="row">
-            <div class="col-md-2">
-                <img src="https://dummyimage.com/380x350" alt="logo" />
+            <div class="col-md-2 imgCol">
+                <img src="../../../assets/images/home/inmobiliariaImg.png" alt="logo" />
             </div>
             <div class="col-md-10 inmobiliariaInfo">
                 <h3>Inmobiliaria</h3>
@@ -74,7 +73,7 @@
                     <app-card tipoPropiedad="Hacienda" class="cardItem"></app-card>
                     <app-card tipoPropiedad="Campos" class="cardItem"></app-card>
                 </div>
-                <a class="viewMore black" routerLink="/propiedades">Todas las propiedades <span class="viewIcon">></span></a>
+                <a class="viewMore" routerLink="/propiedades">Todas las propiedades <span class="viewIcon">></span></a>
             </div>
         </div>
     </div>
@@ -82,19 +81,19 @@
 <div class="luxury">
     <div class="homeSection">
         <div class="row">
-            <div class="col-md-2">
-                <img src="https://dummyimage.com/380x350" alt="logo" />
+            <div class="col-md-2 imgCol">
+                <img src="../../../assets/images/home/luxuryImg.png" alt="logo" />
             </div>
             <div class="col-md-10 homeSectionInfo">
-                <h3>Luxury</h3>
-                <h5>Más buscadas</h5>
+                <h3 class="luxuryText">Luxury</h3>
+                <h5 class="luxuryText">Más buscadas</h5>
                 <div class="cardSlide">
                     <app-card></app-card>
                     <app-card class="cardItem"></app-card>
                     <app-card class="cardItem"></app-card>
                     <app-card class="cardItem"></app-card>
                 </div>
-                <a class="viewMore" [routerLink]="['/propiedades', '']">Todas las propiedades <span class="viewIcon">></span></a>
+                <a class="viewMore luxuryText" [routerLink]="['/propiedades', '']">Todas las propiedades <span class="viewIcon">></span></a>
             </div>
         </div>
     </div>
@@ -103,11 +102,11 @@
     <div class="homeSection">
         <div class="row">
             <div class="col-md-2">
-                <img src="https://dummyimage.com/380x350" alt="logo" />
+                <img src="../../../assets/images/home/extranjeraImg.png" alt="logo" />
             </div>
             <div class="col-md-10 homeSectionInfo">
-                <h3>Propiedades extranjeras</h3>
-                <p>Conocé el servicio de compra de propiedades fuera de Argentina. <a href="#">Más información</a></p>
+                <h3 class="black">Propiedades extranjeras</h3>
+                <p class="black">Conocé el servicio de compra de propiedades fuera de Argentina. <a href="#">Más información</a></p>
                 <h5>Más vistos</h5>
                 <div class="cardSlide">
                     <app-card></app-card>
@@ -131,30 +130,30 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="financiacionItem">
-                                <img class="financiacionIcon" src="assets/images/financiacionIcon.PNG" alt="">
-                                <p class="financiacionText">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, non. Magnam porro officiis natus adipisci dignissimos eum numquam a suscipit perferendis! Animi itaque provident et ea soluta, ex maxime
-                                </p>
+                                <img class="financiacionIcon" src="../../../assets/images/home/bienesRaicesIcon.png" alt="">
+                                <div class="financiacionText">
+                                    <h4>Bienes raíces</h4>
+                                    HERMES Capital ofrece los programas más variados para adquirir o refinanciar propiedades a lo largo de todo el país.<br>
+                                    Ofrecemos un servicio profesional de alta calidad y en su propio idioma. <br>Buscamos resultados rápidos y con las mejores tasas de interés. Lo asesoramos y guiamos para que su solicitud cuente con las mayores probabilidades de aprobación.
+                                </div>
                             </div>
                             <div class="financiacionItem">
-                                <img class="financiacionIcon" src="assets/images/financiacionIcon.PNG" alt="">
-                                <p class="financiacionText">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, non. Magnam porro officiis natus adipisci dignissimos eum numquam a suscipit perferendis! Animi itaque provident et ea soluta, ex maxime
-                                </p>
+                                <img class="financiacionIcon" src="../../../assets/images/home/prestamoIcon.png" alt="">
+                                <div class="financiacionText">
+                                    <h4>Prestamos para remodelaciones o reparaciones</h4>
+                                    ¿Invierte en propiedades (Fix & Flip)  requiere de un financiamiento fácil y rápido? 
+                                    <br>Con HERMES Capital obtendrá una variedad de programas para sus necesidades de financiación y notara la diferencia.
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="financiacionItem">
-                                <img class="financiacionIcon" src="assets/images/financiacionIcon.PNG" alt="">
-                                <p class="financiacionText">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, non. Magnam porro officiis natus adipisci dignissimos eum numquam a suscipit perferendis! Animi itaque provident et ea soluta, ex maxime
-                                </p>
-                            </div>
-                            <div class="financiacionItem">
-                                <img class="financiacionIcon" src="assets/images/financiacionIcon.PNG" alt="">
-                                <p class="financiacionText">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, non. Magnam porro officiis natus adipisci dignissimos eum numquam a suscipit perferendis! Animi itaque provident et ea soluta, ex maxime
-                                </p>
+                                <img class="financiacionIcon" src="../../../assets/images/home/hipotecaImg.png" alt="">
+                                <div class="financiacionText">
+                                    <h4>Hipotecas de bienes raíces comerciales</h4>
+                                    HERMES Capital  le ofrece a través de su network de afiliados distintos programas para adquirir o refinanciar propiedades comerciales a lo largo de todo el país.
+                                    <br>Ofrecemos un servicio profesional con resultados rápidos y los  mejores programas disponibles en el mercado.
+                                </div>
                             </div>
                         </div>
                     </div>

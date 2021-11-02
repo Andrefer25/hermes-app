@@ -45,7 +45,8 @@
 
 .propButton button {
     width: 100%;
-    background-color: black;
+    background-color: rgb(154,5,12);
+    border-color: rgb(154,5,12);
     color: rgb(228, 228, 228);
     font-size: 25px;
     border-radius: 5px;
@@ -56,7 +57,7 @@
 }
 
 .borderTop {
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(112, 112, 112, 0.418);
 }
 
 .moreDesc {
